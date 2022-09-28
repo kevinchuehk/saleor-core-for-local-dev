@@ -239,12 +239,6 @@
       "^react-dom$": "<rootDir>/node_modules/react-dom"
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run check-types"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --fix",
